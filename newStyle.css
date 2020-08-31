@@ -1,0 +1,77 @@
+.moreBtn{
+    padding: 1rem 2rem;
+    border: 2px solid rgba(0, 0, 0,0.4);
+    text-align: center;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+.moreBtn a{
+    color: grey;
+}
+.moreBtn:hover{
+    cursor: pointer;
+}
+
+.endingContent{
+    width: 820px;
+    text-align: center;
+    padding-bottom: 1rem;
+    margin-top: -1rem;
+    color: orange;
+}
+
+#ContactColor{
+    color: #4C4C4C;
+}
+
+#toTop{
+    background-color: gray;
+    padding: 1rem;
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+    cursor: pointer;
+    z-index: 1000000;
+}
+
+.toTopArrow{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    color: white;
+    font-size: 1.5rem;
+}
+#toTop:hover{
+    z-index: 1000000;
+    color: #2d3436;
+}
+
+.contentDesc{
+    font-size: 1.1rem;
+    color: black;
+    line-height: 40px;
+    word-spacing: 3px;
+}
+
+.contentDesc a{
+    color: black;
+    text-decoration: underline;
+}
+.clickToBack{
+    
+}
+
+
+
+
+
+
+
+
+
+@media(max-width:1000px){
+    #ContactColor{
+        color: #ecf0f1;
+        text-align: center;
+    }
+}
