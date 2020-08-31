@@ -75,3 +75,13 @@
         text-align: center;
     }
 }
+
+
+@media(max-width:990px){
+    .amazonAff{
+        display:none;
+    }
+}
+
+
+
